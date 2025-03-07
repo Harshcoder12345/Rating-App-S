@@ -9,8 +9,8 @@ const Average = () => {
 
   return (
     <span className='d-flex text-warning w-100 my-2  container justify-content-between'>
-    <h5>Total Rating : {total} </h5>
-    <h5>Average Rating : {(total)/(feedbacks.length)}   </h5>
+    <h5 className='text-dark'>Total Rating : {total} </h5>
+    <h5 className='text-dark'>Average Rating : {(total)/(feedbacks.length)}   </h5>
     </span>
   )
 }
